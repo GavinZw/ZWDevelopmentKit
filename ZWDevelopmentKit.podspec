@@ -13,7 +13,7 @@ spec.license      =  { :type => 'MIT', :file => 'LICENSE' }
 spec.homepage     = 'https://github.com/GavinZw/ZWDevelopmentKit'
 spec.authors      = { 'gavin' => 'lovegavin@outlook.com' }
 spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
-spec.source       = { :git => 'https://github.com/GavinZw/ZWDevelopmentKit.git', :tag => s.version }
+spec.source       = { :git => 'https://github.com/GavinZw/ZWDevelopmentKit.git', :tag => spec.version }
 spec.requires_arc          = true
 spec.ios.deployment_target = '8.0'
 spec.source_files = 'ZWDevelopmentKit/**/*.{h,m}'
