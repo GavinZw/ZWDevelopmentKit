@@ -16,6 +16,6 @@ spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
 spec.source       = { :git => 'https://github.com/GavinZw/ZWDevelopmentKit.git', :tag => spec.version }
 spec.requires_arc          = true
 spec.ios.deployment_target = '8.0'
-spec.source_files = 'ZWDevelopmentKit/*.h'
+spec.source_files = 'ZWDevelopmentKit/ZWDevelopmentKit/*.h'
 
 end
