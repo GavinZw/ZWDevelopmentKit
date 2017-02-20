@@ -6,24 +6,18 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
-  s.name                  = "ZWDevelopmentKit"
-  s.version               = "1.0.0"
-  s.homepage              = "https://github.com/GavinZw/ZWDevelopmentKit"
-  s.license               = { :type => 'MIT', :file => 'LICENSE' } 
-  s.author             = { "gavin" => "lovegavin@outlook.com" }
-  s.source                = { :git => "https://github.com/GavinZw/ZWDevelopmentKit.git", :tag => s.version }
-  s.source_files          = 'ZWDevelopmentKit/**/*.h’
-  s.platform              = :ios
-  s.ios.deployment_target = ‘8.0’
-  s.requires_arc          = true
-  s.summary               = "Easily iOS."
-  s.description           = <<-DESC
-  # ZWDevelopmentKit
+Pod::Spec.new do |spec|
+spec.name         = 'ZWDevelopmentKit'
+spec.version      = '1.0.0'
+spec.license      =  { :type => 'MIT', :file => 'LICENSE' }
+spec.homepage     = 'https://github.com/GavinZw/ZWDevelopmentKit'
+spec.authors      = { 'gavin' => 'lovegavin@outlook.com' }
+spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
+spec.source       = { :git => 'https://github.com/GavinZw/ZWDevelopmentKit.git', :tag => s.version }
+spec.requires_arc          = true
+spec.ios.deployment_target = '8.0'
+spec.source_files = 'ZWDevelopmentKit/**/*.{h,m}'
 
-    ZWDevelopmentKit
-
-  DESC
 end
 
 
