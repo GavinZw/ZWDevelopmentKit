@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform              = :ios
   s.ios.deployment_target = ‘8.0’
   s.requires_arc          = true
-  s.summary               = "Easily get the device current location on iOS."
+  s.summary               = "Easily iOS."
   s.description           = <<-DESC
   # ZWDevelopmentKit
 
