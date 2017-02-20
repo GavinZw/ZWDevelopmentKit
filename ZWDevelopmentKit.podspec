@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = "ZWDevelopmentKit"
-  s.version               = “1.0.0”
+  s.version               = "1.0.0"
   s.homepage              = "https://github.com/GavinZw/ZWDevelopmentKit"
   s.license               = { :type => 'MIT', :file => 'LICENSE' } 
   s.author             = { "gavin" => "lovegavin@outlook.com" }
